@@ -12,6 +12,7 @@ return require('packer').startup(function(use)
   use 'mbbill/undotree'
   use 'unblevable/quick-scope'
   use 'github/copilot.vim'
+  use 'folke/which-key.nvim'
 
   -- LSP
   use 'williamboman/mason.nvim'    
