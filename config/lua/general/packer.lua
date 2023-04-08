@@ -13,6 +13,7 @@ return require('packer').startup(function(use)
   use 'unblevable/quick-scope'
   use 'github/copilot.vim'
   use 'folke/which-key.nvim'
+  use 'Raimondi/delimitMate'
 
   -- LSP
   use 'williamboman/mason.nvim'    
