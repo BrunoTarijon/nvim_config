@@ -15,6 +15,9 @@ return require('packer').startup(function(use)
   use 'folke/which-key.nvim'
   use 'Raimondi/delimitMate'
 
+  -- Git integration
+  use 'lewis6991/gitsigns.nvim'
+
   -- LSP
   use 'williamboman/mason.nvim'    
   use 'williamboman/mason-lspconfig.nvim' 
