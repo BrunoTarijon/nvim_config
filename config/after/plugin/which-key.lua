@@ -37,6 +37,11 @@ wk.register({
       r = { "<cmd>ChatGPTRun roxygen_edit<CR>", "Roxygen Edit", mode = { "n", "v" } },
       l = { "<cmd>ChatGPTRun code_readability_analysis<CR>", "Code Readability Analysis", mode = { "n", "v" } },
     },
+  f = {
+    name = "Fun",
+    r = { "Make it rain" },
+    c = { "Game of life" }
+  },
   ["u"] = "which_key_ignore",
   ["e"] = "which_key_ignore" 
 }, { prefix = "<leader>" })

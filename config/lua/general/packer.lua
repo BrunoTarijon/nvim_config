@@ -13,6 +13,7 @@ return require('packer').startup(function(use)
   use 'unblevable/quick-scope'
   use 'folke/which-key.nvim'
   use 'Raimondi/delimitMate'
+  use 'eandrju/cellular-automaton.nvim'
 
   -- Git integration
   use 'lewis6991/gitsigns.nvim'
