@@ -23,9 +23,10 @@ return require('packer').startup(function(use)
   use 'williamboman/mason-lspconfig.nvim' 
   use 'neovim/nvim-lspconfig' 
   use 'simrat39/rust-tools.nvim'
+  use 'neovim/nvim-lspconfig'
 
   -- IA tools
-  use 'github/copilot.vim'
+  use { "zbirenbaum/copilot.lua" }
   use({
   "jackMort/ChatGPT.nvim",
     config = function()
