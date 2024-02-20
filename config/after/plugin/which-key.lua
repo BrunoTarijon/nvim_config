@@ -6,6 +6,11 @@ vim.o.timeoutlen = 300
 local wk = require("which-key")
 
 wk.register({
+  h = {
+    name = "Harpoon",
+    a   = { "Append" },
+    l   = { "List"   },
+  },
   t = {
     name = "Telescope",
     g = { "Fuzzy on git files"},

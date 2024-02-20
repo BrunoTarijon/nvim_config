@@ -13,6 +13,11 @@ return require('packer').startup(function(use)
   use 'unblevable/quick-scope'
   use 'folke/which-key.nvim'
   use 'Raimondi/delimitMate'
+  use {
+      "ThePrimeagen/harpoon",
+      branch = "harpoon2",
+      requires = { {"nvim-lua/plenary.nvim"} }
+  } 
   use 'eandrju/cellular-automaton.nvim'
 
   -- Git integration
