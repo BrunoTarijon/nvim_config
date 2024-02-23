@@ -13,6 +13,7 @@ return require('packer').startup(function(use)
   use 'unblevable/quick-scope'
   use 'folke/which-key.nvim'
   use 'Raimondi/delimitMate'
+  use 'chentoast/marks.nvim'
   use {
       "ThePrimeagen/harpoon",
       branch = "harpoon2",
