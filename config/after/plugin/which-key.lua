@@ -19,12 +19,11 @@ wk.register({
   },
   l = {
     name = "LSP",
-    r = {
-      name = "Rust",
-      a = { "Code Action" },
-      h = { "Hover" },
-      ["u"] = "which_key_ignore" 
-    }
+    r    = "Ref",
+    h    = "Hover",
+    a    = "Code Action",
+    d    = "Definition",
+    f    = "Format"
   },
   c = {
     name = "ChatGPT",
