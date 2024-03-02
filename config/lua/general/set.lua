@@ -1,12 +1,6 @@
 vim.opt.nu = true
 vim.opt.relativenumber = true
 
-vim.opt.tabstop = 2
-vim.opt.softtabstop = 2
-vim.opt.shiftwidth = 2
-vim.opt.expandtab = true
-vim.opt.smartindent = true
-
 vim.opt.swapfile = false
 vim.opt.backup = false
 vim.opt.undodir = os.getenv("HOME") .. "/.vim/undodir"
@@ -40,8 +34,13 @@ vim.api.nvim_create_autocmd("CursorHold", {
   end
 })
 
-vim.o.expandtab = true -- expand tab input with spaces characters
-vim.o.smartindent = true -- syntax aware indentations for newline inserts
+-- vim.o.expandtab = true -- expand tab input with spaces characters
+-- vim.o.smartindent = true -- syntax aware indentations for newline inserts
+-- vim.o.tabstop = 4 -- num of space characters per tab
+-- vim.o.shiftwidth = 4 -- spaces per indentation level
+
+-- Use tabs
+vim.o.noexpandtab = true
 vim.o.tabstop = 4 -- num of space characters per tab
 vim.o.shiftwidth = 4 -- spaces per indentation level
 
